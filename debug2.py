@@ -1,7 +1,13 @@
 #!python3
 """
-Debug this program so that it runs
+Debug this program so that it reads input as an integer
+
+original code:
+a = input("enter an integer")
+answer = a + 3
+print(answer)
 """
 
-    2 = x
-print(x)
+a = input("enter an integer")
+answer = a + 3
+print(answer)

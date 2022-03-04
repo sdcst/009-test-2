@@ -1,6 +1,14 @@
 #!python3
 """
 Debug this program so that it runs
+
+original code:
+x = input("enter a decimal number"))
+xi = int(x)
+if (x - xi) == 0:
+    print(f"{x} is an integer")
 """
-1x = 4
-print(1x)
+x = input("enter a decimal number"))
+xi = int(x)
+if (x - xi) == 0:
+    print(f"{x} is an integer")
