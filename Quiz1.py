@@ -1,114 +1,98 @@
 #!python3
 
-print()
+x = input()
+print(x)
 exit()
 """
 Q1. 
-Modify line 3 so that the program prints "Hello world"
-When you are done, add '#' to the beginning of line 4 to comment out
+Modify line 3 so that the program asks the user to "Enter a number"
+When you are done, add '#' to the beginning of line 5 to comment out
 the exit() command and move on to the next question
 """
 
-print("Hello")
-print("World")
+x = 38.4521
+x = round(x)
+print(x)
 exit()
 """
 Q2.
-Modify line 12 with an 'end' option to make the two words print on
-the same line.
-When you are done, add '#' to the beginning of line 14 to comment out
+Modify line 14 so that the value of x is rounded to 2 decimal places
+When you are done, add '#' to the beginning of line 16 to comment out
 the exit() command and move on to the next question
 """
 
-word1 = "Hello"
-word2 = "World"
-print()
+
+x = 3.0
+x = x
+print( x * "hello")
 exit()
+
 """
 Q3.
-Modify line 25 to join the two variables into a single string literal that will
-be displayed
-When you are done, add '#' to the beginning of line 26 to comment out
+Modify line 26 to convert x into an integer value so that line 27 can produce
+the output "hellohellohello"
+When you are done, add '#' to the beginning of line 28 to comment out
 the exit() command and move on to the next question
 """
 
-print("Carry on my wayward son. There'll be peace when you are done. Lay your weary head to rest.")
+x = 4
+if :
+    print("x is greater than 3")
 exit()
 """
 Q4.
-Modify the string literal in line 35 so that each sentence is printed on 
-a separate line
-When you are done, add '#' to the beginning of line 36 to comment out
+Have line 39 check to see if x is greater than 3
+When you are done, add '#' to the beginning of line 41 to comment out
 the exit() command and move on to the next question
 """
-
-x = 2
-y = 4
+x = 5
+if :
+    print("x is greater than 5")
+#
+    print("x is not greater than 5")
 print()
 exit()
 """
 Q5.
-Modify line 47 so that the sum of the two variables is printed.
-When you are done, add '#' to comment out
-the exit() command and move on to the next question
+Modify line 49 and 51 to check if x is greater than 5 and do a different block if it isnt'
+When you are done, add '#' to comment out the exit() command
+and move on to the next question
 """
 
 x = 3
 y = 4
-print()
+if:
+    print("x is 3 and y is 4")
+
 exit()
 """
 Q6.
-Modify line 58 so that the 3 to the power of 4 is printed.
+Modify line 64 so that the program checks the values of both x and y
 When you are done, add '#' to comment out
 the exit() command and move on to the next question
 """
 
 x = 10
-y = "again"
-print()
-exit()
+if x == 10:
+print("x is 10")
+print("10 is stored in x")
+#
+print("x is not 10")
 """
 Q7.
-Modify line 69 so that the two variables are printed one after
-the other.
-output: 10again
+Modify lines 77-80 so that 77 and 78 are printed if x = 10 and line 80 is executed
+if x is not 10
 When you are done, add '#' to comment out
 the exit() command and move on to the next question
 """
 
-input()
-print(x)
-exit()
+x = 8
+y = 8
+if:
+    print("at least one number is less than 8")
 """
 Q8.
-Modify line 80 so that the input is stored into a variable, 'x'.
-Line 80 should also be modified so that the question, "Enter x" is
-displayed
-When you are done, add '#' to comment out
-the exit() command and move on to the next question
-"""
-
-x = "20"
-x = x
-print(10*x)
-exit()
-"""
-Q9.
-Modify line 93 so that x is converted to a decimal type number
-output: 200.0
-When you are done, add '#' to comment out
-the exit() command and move on to the next question
-"""
-
-x = 10
-print("the value of x in dollars is $",x)
-exit()
-"""
-Q10.
-Modify line 105 so that the output includes the value of x
-with no spaces
-output: the value of x in dollars is $10
+Modify line 91 to check if at least one number is less than 8
 When you are done, add '#' to comment out
 the exit() command and move on to the next question
 """
