@@ -1,4 +1,5 @@
 Open the file "Quiz1.py"
+Open the file "Quiz2.py" and write the program that has been specified
 
 Follow the instructions for each of the parts of this quiz.
 There is no autograder for this assignment
